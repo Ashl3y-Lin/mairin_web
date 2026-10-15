@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAIRIN · Acompañamiento femenino</title>
+  <meta name="description" content="La primera compañera digital de salud femenina creada para las mujeres de Nicaragua.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>try{if(localStorage.getItem("mairin-theme")==="dark")document.documentElement.dataset.theme="dark";}catch(e){}</script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a href="#sobre" class="brand" data-link>
+        <img src="images/logo-tile.png" alt="" class="brand-logo">
+        <span class="brand-name">MAIRIN</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Principal">
+        <a href="#sobre" data-link>Sobre MAIRIN</a>
+        <a href="#funciones" data-link>Funciones</a>
+        <a href="#descarga" data-link>Descarga</a>
+        <button class="sun-btn theme-toggle" aria-label="Cambiar a tema oscuro" aria-pressed="false">
+          <svg class="icon-sun" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+            <circle cx="24" cy="24" r="8.5"/>
+            <path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M9.9 38.1l4.2-4.2M33.9 14.1l4.2-4.2"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M39 29.5A16 16 0 1 1 22.5 9a12.5 12.5 0 0 0 16.5 20.5z"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ SOBRE MAIRIN ============ -->
+    <section class="about" id="sobre">
+      <div class="container">
+        <div class="hero-card reveal">
+          <img src="images/logo-circle.png" alt="" class="mini-logo">
+          <h1>MAIRIN</h1>
+          <p>La primera compañera digital de salud femenina creada para las mujeres de Nicaragua.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="brand-showcase reveal">
+            <img src="images/logo-mairin.png" alt="MAIRIN · Acompañamiento femenino" class="showcase-logo theme-light-only">
+            <div class="showcase-dark theme-dark-only">
+              <img src="images/logo-tile-dark.png" alt="MAIRIN">
+              <p class="sd-name">MAIRIN</p>
+              <p class="sd-tag">ACOMPAÑAMIENTO FEMENINO</p>
+            </div>
+          </div>
+
+          <div class="about-cards">
+            <article class="card values-card reveal">
+              <span class="heart-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                  <path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.4a4.3 4.3 0 0 1 7.5 2.4C19.5 15.4 12 20 12 20z"/>
+                </svg>
+              </span>
+              <h3>Valores de MAIRIN</h3>
+              <div class="values-cols">
+                <ul>
+                  <li>Acompañamiento constante</li>
+                  <li>Confianza construida con evidencia</li>
+                  <li>Mujeres que inspiran mujeres</li>
+                </ul>
+                <ul>
+                  <li>Empatía antes que tecnología</li>
+                  <li>Conocimiento que transforma</li>
+                  <li>Acceso para todas</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card accent-card reveal">
+              <span class="accent-bar"></span>
+              <h3>Misión</h3>
+              <p>Acompañar a cada mujer en cada etapa de su vida con información confiable, herramientas prácticas y apoyo cercano, para que pueda tomar decisiones informadas sobre su salud, cuidar de sí misma con confianza y romper las barreras creadas por la desinformación. Creemos que toda mujer merece sentirse escuchada, comprendida y acompañada, sin importar dónde viva, el idioma que hable o la etapa de vida en la que se encuentre.</p>
+            </article>
+
+            <article class="card accent-card reveal">
+              <span class="accent-bar"></span>
+              <h3>Visión</h3>
+              <p>Ser la aplicación de salud femenina más confiable e inclusiva de Latinoamérica, transformando la manera en que las mujeres viven y entienden su salud. Aspiramos a construir una comunidad donde el conocimiento sustituya los mitos, el autocuidado sea parte de la vida diaria y ninguna mujer enfrente sola los cambios que acompañan su historia.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FUNCIONES ============ -->
+    <section class="features" id="funciones">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>MAIRIN, te acompaña en cada etapa</h2>
+          <p>Una experiencia personalizada según el momento de vida de cada usuaria.</p>
+        </header>
+
+        <div class="stages">
+          <article class="stage stage--1 reveal">
+            <span class="stage-label">ETAPA 1</span>
+            <h3>Menstruación</h3>
+            <p>Registro del ciclo y detección de irregularidades.</p>
+          </article>
+          <article class="stage stage--2 reveal">
+            <span class="stage-label">ETAPA 2</span>
+            <h3>Embarazo</h3>
+            <p>Seguimiento semanal del bebé, síntomas y citas.</p>
+          </article>
+          <article class="stage stage--3 reveal">
+            <span class="stage-label">ETAPA 3</span>
+            <h3>Menopausia</h3>
+            <p>Bienestar físico y emocional con ejercicios y monitoreo.</p>
+          </article>
+        </div>
+
+        <div class="feature-cards">
+          <article class="card feature-card reveal">
+            <span class="accent-bar"></span>
+            <h3>Herramientas incluidas en cada etapa</h3>
+            <ul class="icon-list">
+              <li><span class="ico"><svg viewBox="0 0 16 16"><rect x="2.5" y="3.5" width="11" height="10" rx="1"/><path d="M2.5 6.5h11M5.5 2v3M10.5 2v3"/><circle cx="8" cy="10" r="1.3"/></svg></span>Calendario personalizado</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><rect x="3" y="2.5" width="10" height="11" rx="1"/><path d="M8 7v4M8 5v.2"/></svg></span>Centro de información</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><path d="M2.5 3.5h11v7h-6l-3 2.5v-2.5h-2z"/><path d="M5 6h6M5 8h4"/></svg></span>Chatbot de apoyo emocional</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><path d="M8 2.5v5M8 5.5c-1.5 0-4.5 1-4.5 5s.5 3 2 3 2.5-1 2.5-3M8 5.5c1.5 0 4.5 1 4.5 5s-.5 3-2 3-2.5-1-2.5-3"/></svg></span>Ejercicios de respiración guiada</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><rect x="2" y="5" width="12" height="7" rx="2.5"/><path d="M5 7v3M3.5 8.5h3"/><circle cx="10.5" cy="7.8" r=".5"/><circle cx="11.8" cy="9.4" r=".5"/></svg></span>Juego interactivo para derribar mitos</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><path d="M4 11V7.5a4 4 0 0 1 8 0V11l1 1.5H3z"/><path d="M6.8 14h2.4"/></svg></span>Notificaciones personalizadas con frases motivacionales</li>
+            </ul>
+          </article>
+
+          <article class="card feature-card reveal">
+            <span class="accent-bar"></span>
+            <h3>Confianza y accesibilidad</h3>
+            <ul class="pill-list">
+              <li><span class="thumb"><svg viewBox="0 0 24 24"><path d="M7 10.5v9H4v-9zM7 19.5h9.2a2 2 0 0 0 2-1.6l1.2-5.6a2 2 0 0 0-2-2.4H13l.7-3.4a1.8 1.8 0 0 0-3.3-1.3L7 10.5"/></svg></span>Contenido verificado por médicos</li>
+              <li><span class="thumb"><svg viewBox="0 0 24 24"><path d="M7 10.5v9H4v-9zM7 19.5h9.2a2 2 0 0 0 2-1.6l1.2-5.6a2 2 0 0 0-2-2.4H13l.7-3.4a1.8 1.8 0 0 0-3.3-1.3L7 10.5"/></svg></span>Disponible en español, en texto y audio</li>
+              <li><span class="thumb"><svg viewBox="0 0 24 24"><path d="M7 10.5v9H4v-9zM7 19.5h9.2a2 2 0 0 0 2-1.6l1.2-5.6a2 2 0 0 0-2-2.4H13l.7-3.4a1.8 1.8 0 0 0-3.3-1.3L7 10.5"/></svg></span>Texto en miskito y criollo, traducido por hablantes nativos.</li>
+            </ul>
+          </article>
+
+          <article class="card feature-card reveal">
+            <span class="accent-bar"></span>
+            <h3>Seguridad y apoyo</h3>
+            <ul class="icon-list">
+              <li><span class="ico"><svg viewBox="0 0 16 16"><path d="M8 2.5l6 10.5H2z"/><path d="M8 6.5v3M8 11v.2"/></svg></span>Botón de emergencia para acceder rápidamente a ayuda</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><path d="M6 2.5h4v3.5h3.5v4H10v3.5H6V10H2.5V6H6z"/></svg></span>Centro de ayuda</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><rect x="2.5" y="3.5" width="11" height="10" rx="1"/><path d="M2.5 6.5h11"/></svg></span>Recordatorios del calendario y del próximo ciclo menstrual</li>
+              <li><span class="ico"><svg viewBox="0 0 16 16"><path d="M4 2.5h5.5L12 5v8.5H4z"/><path d="M6 8h4M6 10.5h4"/></svg></span>Exportación de tu información médica en PDF</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DESCARGA ============ -->
+    <section class="download" id="descarga">
+      <img src="images/circle-face.png" alt="" class="download-circle theme-light-only" aria-hidden="true">
+      <img src="images/circle-face-dark.png" alt="" class="download-circle theme-dark-only" aria-hidden="true">
+
+      <div class="container download-inner">
+        <div class="download-copy reveal">
+          <div class="download-kicker">
+            <span>DESCARGA LA APP</span>
+            <span class="download-icon">
+              <svg viewBox="0 0 64 64" fill="none">
+                <path d="M32 8v24M22 23l10 10 10-10" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="10" y="38" width="44" height="16" rx="8" fill="currentColor"/>
+                <circle cx="40" cy="46" r="2.6" fill="#fff"/><circle cx="47" cy="46" r="2.6" fill="#fff"/>
+              </svg>
+            </span>
+          </div>
+          <h2>MAIRIN</h2>
+          <p class="download-sub">te acompaña</p>
+
+          <div class="store-buttons">
+            <a href="#" class="store-btn" id="android-link">
+              <span class="store-ico">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 9h10v7.5a1 1 0 0 1-1 1h-1v2.5a1.2 1.2 0 0 1-2.4 0v-2.5h-1.2v2.5a1.2 1.2 0 0 1-2.4 0v-2.5H8a1 1 0 0 1-1-1zM4.8 9a1.2 1.2 0 0 1 1.2 1.2v4.6a1.2 1.2 0 0 1-2.4 0v-4.6A1.2 1.2 0 0 1 4.8 9zm14.4 0a1.2 1.2 0 0 1 1.2 1.2v4.6a1.2 1.2 0 0 1-2.4 0v-4.6A1.2 1.2 0 0 1 19.2 9zM7 8.2a5 5 0 0 1 2.6-4l-.9-1.6.5-.3.9 1.6a5.6 5.6 0 0 1 3.8 0l.9-1.6.5.3-.9 1.6a5 5 0 0 1 2.6 4zm3-2a.6.6 0 1 0 0 1.2.6.6 0 0 0 0-1.2zm4 0a.6.6 0 1 0 0 1.2.6.6 0 0 0 0-1.2z"/></svg>
+              </span>
+              Descarga en Android
+            </a>
+            <a href="#" class="store-btn" id="ios-link">
+              <span class="store-ico">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7a4.5 4.5 0 0 0-3.5-1.9c-1.5-.2-2.9.9-3.7.9s-1.9-.9-3.2-.8a4.7 4.7 0 0 0-4 2.4c-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4s1.7-.8 3.1-.8 1.9.8 3.2.8 2.1-1.2 2.9-2.4a9.6 9.6 0 0 0 1.3-2.7 4.2 4.2 0 0 1-2.4-4zM14 5.4A4.2 4.2 0 0 0 15 2.3a4.3 4.3 0 0 0-2.8 1.4 4 4 0 0 0-1 3 3.6 3.6 0 0 0 2.8-1.3z"/></svg>
+              </span>
+              Descarga en IOS
+            </a>
+          </div>
+        </div>
+
+        <div class="phones reveal">
+          <img src="images/phones.png" alt="App MAIRIN: pantalla de calendario y pantalla de inicio">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-arc">
+      <h2>Síguenos</h2>
+      <a href="#" class="insta" aria-label="Instagram de MAIRIN" id="instagram-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4.2"/>
+          <circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <p>© <span id="year">2026</span> MAIRIN · Hecho en Nicaragua, para todas las etapas de la vida.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
